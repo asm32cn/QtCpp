@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file>res/icon32.png</file>
+		<file>res/res-button-01.png</file>
+		<file>res/res-button-02.png</file>
+		<file>res/res-button-03.png</file>
+		<file>res/res-button-04.png</file>
+		<file>res/res-button-05.png</file>
+		<file>res/res-button-06.png</file>
+		<file>res/res-button-07.png</file>
+	</qresource>
+</RCC>

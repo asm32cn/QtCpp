@@ -1,0 +1,281 @@
+strFile= AssignedIpAddrListRpm.htm
+GET /userRpm/AssignedIpAddrListRpm.htm HTTP/1.1
+Cookie: Authorization=Basic%20YWRtaW46cGFzc3dk; ChgPwdSubTag=
+Referer: http://192.168.1.1/userRpm/MenuRpm.htm
+
+
+1024 read.
+------------------------------------------------------------
+2048 read.
+------------------------------------------------------------
+131 read.
+------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=gb2312
+Cache-Control: no-cache
+Connection: close
+
+<script type="text/javascript">
+var DHCPDynList=new Array(
+"Asm32-PC",
+"00-1E-4F-57-25-BA",
+"192.168.1.66",
+"Permanent",
+"android-5a73790e6fe8408f",
+"F6-D0-10-96-DC-E2",
+"192.168.1.85",
+"Permanent",
+"MIPAD-Asm32",
+"98-FA-E3-44-F2-DB",
+"192.168.1.88",
+"Permanent",
+"Windows-Phone",
+"F4-F5-A5-08-6A-EA",
+"192.168.1.82",
+"Permanent",
+0,0 );
+</script>
+<script type="text/javascript">
+var DHCPDynPara=new Array(
+4,
+4,
+0,0 );
+</script>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="wed, 26 Feb 1997 08:21:57 GMT">
+<link href="/dynaform/css_main.css" rel="stylesheet" />
+<script src="/dynaform/common.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+if(window.parent == window){window.location.href="http://192.168.1.1";}
+function Click(){return false;}
+document.oncontextmenu=Click;
+function doPrev(){history.go(-1);}
+//--></script>
+
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+</head>
+<body>
+<center><form action="AssignedIpAddrListRpm.htm" enctype="multipart/form-data" method="get">
+<!--外框表格-->
+<table width="540" border="0" cellspacing="0" cellpadding="0">
+<tr><td width="7" class="title"><img src="/images/arc.gif" width="7" height="24"></td>
+<td width="533" align="left" valign="middle" class="title">客户端列表</td>
+</tr><tr><td colspan="2"><table width="540" border="0" cellspacing="0" cellpadding="0">
+<tr><td class="vline" rowspan="15"><br></td>
+<td width="538">
+<!--内容开始-->
+<table width="500" border="0" align="center" cellpadding="0" cellspacing="0" class="space">
+<tr><td align="center" width="500">
+<!-- added, -->
+<script language="JavaScript">
+if (DHCPDynPara[0] > 0)	{
+var row = 0;
+var i = 0;
+var j;
+document.write('<TR><TD><table border=1 align="center" cellpadding="0" cellspacing="0" class="space">');
+document.write('<TR align="center"><TD  width="30">ID</TD><TD >客户端名</TD><td  width="120" nowrap>MAC地址</td><TD  width="90" nowrap>IP地址</TD><TD >有效时间</TD></TR>');
+for(i = 0; i < DHCPDynPara[0]; i++)
+{	
+	j = i+1;
+	row = i * DHCPDynPara[1];
+	document.write('<tr align="center"><td >' + j + '</td>');
+	document.write('<td >' + DHCPDynList[row] + '</td>');
+	document.write('<td >' + DHCPDynList[row+1] + '</td>');
+	document.write('<td >' + DHCPDynList[row+2] + '</td>');
+	if (DHCPDynList[row+3] != "Permanent" )
+		document.write('<td >' + DHCPDynList[row+3] + '</TD></TR>');
+	else
+		document.write('<td >永 久</TD></TR>');
+}
+document.write('</table></TD></TR>');
+}
+else	{
+document.write('<TR><TD class=info1>当前客户端列表为空</TD></TR>');}
+</script>
+</td><tr>
+</table>
+<!--内容结束-->
+</td><td class="vline" rowspan="15"><br></td></tr>
+<tr><td  class="hline"><img src="/images/empty.gif" width="1" height="1"></td></tr>
+<tr><td height="30" class="tail">
+&nbsp;<input name="Refresh" type="submit" class="button" value="刷 新">
+</td></tr><tr><td class="hline"><img src="/images/empty.gif" width="1" height="1"></td>
+</tr></table></td></tr></table>
+</form></center></body><head><meta http-equiv="pragma" content="no-cache"></head></html>
+
+strFile= SystemLogRpm.htm
+GET /userRpm/SystemLogRpm.htm HTTP/1.1
+Cookie: Authorization=Basic%20YWRtaW46cGFzc3dk; ChgPwdSubTag=
+Referer: http://192.168.1.1/userRpm/MenuRpm.htm
+
+
+1024 read.
+------------------------------------------------------------
+1024 read.
+------------------------------------------------------------
+1024 read.
+------------------------------------------------------------
+512 read.
+------------------------------------------------------------
+1024 read.
+------------------------------------------------------------
+1536 read.
+------------------------------------------------------------
+485 read.
+------------------------------------------------------------
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=gb2312
+Cache-Control: no-cache
+Connection: close
+
+<script type="text/javascript">
+var logList=new Array(
+"   0days, 00:00:04, LAN: mirror0 set ip c0a80101 mask ffffff00",
+"   0days, 00:00:06, System start ok.",
+"   0days, 00:00:10, PPP LCP: TX TERMINATION_REQUEST.",
+"   0days, 00:00:10, PPPOE: TX PADT.",
+"   0days, 00:00:10, try special dail type: 0",
+"   0days, 00:00:11, PPPOE: TX PADI.",
+"   0days, 00:00:11, PPPOE: RX PADO,AC-NAME=XJCHJ-MC-CMNET-ZXJ-BAS01-M6000,AC-MAC=4C09B4FAB090",
+"   0days, 00:00:11, PPPOE: TX PADR.",
+"   0days, 00:00:11, PPPOE: RX PADS.",
+"   0days, 00:00:13, PPP SM: retry 1\/10.",
+"   0days, 00:00:13, PPP LCP: TX CONFIGURE_REQUEST.",
+"   0days, 00:00:13, PPP LCP: RX CONFIGURE_REQUEST.",
+"   0days, 00:00:13, PPP LCP: TX CONFIGURE_ACK.",
+"   0days, 00:00:13, PPP LCP: RX CONFIGURE_ACK.",
+"   0days, 00:00:13, PPP CHAP: RX CHAP_CHALLENGE.",
+"   0days, 00:00:13, PPP CHAP: TX CHAP_RESPONSE.",
+"   0days, 00:00:13, PPP CHAP: RX CHAP_AUTHENTICATION_ACK.",
+"   0days, 00:00:13, PPP IPCP: RX CONFIGURE_REQUEST.",
+"   0days, 00:00:13, PPP IPCP: TX CONFIGURE_REQUEST.",
+"   0days, 00:00:13, PPP IPCP: TX CONFIGURE_ACK.",
+"   0days, 00:00:13, PPP IPCP: RX CONFIGURE_NAK.",
+"   0days, 00:00:13, PPP IPCP: TX CONFIGURE_REQUEST.",
+"   0days, 00:00:13, PPP IPCP: RX CONFIGURE_ACK.",
+"   0days, 00:00:13, PPP: ppp0 set localIp 24b61303 dstIp 24b61301 mtu 1480",
+"   0days, 00:00:43, DHCPS: Send OFFER with ip 192.168.1.82",
+0,0 );
+</script>
+<script type="text/javascript">
+var logExpList=new Array(
+0,0 );
+</script>
+<script type="text/javascript">
+var isAp=new Array(
+0,
+0,0 );
+</script>
+<script type="text/javascript">
+var syslogWebConf=new Array(
+0,
+0,0 );
+</script>
+<script type="text/javascript">
+var logWanList=new Array(
+"W1 = PPPoE : W = 36.182.19.3 : M = 255.255.255.255 : G = 36.182.19.1",
+"Cnt = 8576, Free = 8511, Busy = 65",
+0,0 );
+</script>
+<script type="text/javascript">
+var logInf=new Array(
+"Time = 2016-11-20  4:04:27 920s",
+"H-Ver = WR885N 1.0 00000000 : S-Ver = 1.0.2 Build 140504 Rel.33139n ",
+"L = 192.168.1.1 : M = 255.255.255.0",
+0,0 );
+</script>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="wed, 26 Feb 1997 08:21:57 GMT">
+<link href="/dynaform/css_main.css" rel="stylesheet" />
+<script src="/dynaform/common.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+if(window.parent == window){window.location.href="http://192.168.1.1";}
+function Click(){return false;}
+document.oncontextmenu=Click;
+function doPrev(){history.go(-1);}
+//--></script>
+
+<script language="JavaScript" src="../dynaform/custom.js" type="text/JavaScript"></script>
+<script language="Javascript"><!--
+function doSubmit(){
+if(confirm("确认清除所有日志内容吗？")){
+return true;}
+else {return false;}}
+function doClick(){
+location.href="/userRpm/SystemLogRpm.htm";}
+//--></script></head>
+<body><center>
+<form action="SystemLogRpm.htm" enctype="multipart/form-data" method="get" onSubmit="return doSubmit();">
+<table width="640" border="0" cellspacing="0" cellpadding="0">
+<tr><td width="7" class="title"><img src="/images/arc.gif" width="7" height="24"></td>
+<td width="633" align="left" valign="middle" class="title">系统日志</td>
+</tr><tr><td colspan="2" align="left">
+<table width="640" border="0" cellspacing="0" cellpadding="0">
+<tr><td class="vline" rowspan="15"><br></td>
+<td width="638">
+<table width="598" border="0" align="center" cellspacing="0" cellpadding="0" class="space">
+	<tr>
+		<td>本页面显示路由器的系统日志。用户可以查看日志，并且可以保存日志内容或将日志内容通过邮件发送。</td>
+	</tr>
+<tr><td height="10"></td></tr>
+<tr style="display:yes;"><td>通过邮件定时发送日志：
+<SCRIPT language="JavaScript">
+	if (syslogWebConf[0] == 0) 
+	{
+		document.write("<b>未启用</b>");
+	}
+	else 
+	{
+		document.write("<b>已启用</b>");
+	}
+</SCRIPT>&nbsp;&nbsp;
+<input name="AutoMail" type="button" class="button" value="邮件发送设置" onClick="location.href='AutoEmailRpm.htm';" onmousewheel=disabled align="left">
+</td></tr>
+<script language="JavaScript">
+var maxRow;
+var i;
+if((logList.length-2)>=1){
+maxRow = logList.length-2;
+document.write('<tr><td width="598" align="center">');
+document.write('<table border="1" align="center" width="598" cellspacing="0" cellpadding="0" class="space">');
+document.write('<TR><TD align="center" width=40>索引</TD>');
+document.write('<TD align="center" width=60>类型</TD>');
+document.write('<TD><p align="left">&nbsp;日&nbsp;志&nbsp;内&nbsp;容</p></TD></TR>');
+for(i = 0; i < maxRow; i++){
+document.write('<TR><TD align="center" width=40>'+(maxRow-i)+'</TD>');
+document.write('<TD align="center" width=60>INFO</TD>');
+document.write('<TD><p align="left">&nbsp;'+logList[maxRow-i-1]+'</p></TD></TR>');
+}}
+if((logExpList.length-2)>=1){
+maxRow = logExpList.length-2;
+for(i = 0;i < maxRow;i++){
+document.write('<TR><TD align="center" width=40>'+'E'+(maxRow-i)+'</TD>');
+document.write('<TD align="center" width=60>DEBUG</TD>');
+document.write('<TD colspan ="2">'+logExpList[maxRow-i-1]+'</TD></TR>');
+}}
+document.write('</table></td></tr>');
+document.write('<tr><td width="598"><table border="0" align="left" cellpadding="0" cellspacing="0" class="space">');
+document.write('<TR><TD colspan=2>&nbsp;' + logInf[0]+'</TD></TR>');
+document.write('<TR><TD colspan=2>&nbsp;' + logInf[1]+'</TD></TR>');
+document.write('<TR><TD colspan=2>&nbsp;' + logInf[2]+'</TD></TR>');
+if((logWanList.length-2)>=1){
+maxRow = logWanList.length-2;
+for(i=0;i<maxRow;i++){
+document.write('<TR><TD colspan="2">&nbsp;' + logWanList[i]+'</TD></TR>');
+}}
+document.write('</table></td></tr>');
+
+</script>
+</table>
+</td><td class="vline" rowspan="15"><br></td></tr>
+<tr><td class="hline"><img src="/images/empty.gif" width=1 height="1"></td></tr>
+<tr><td height=30 class="tail">&nbsp;
+<input name="Refresh" type="button" class="button" value="刷 新" onClick="doClick();" align="left">
+&nbsp;<input NAME="DownLoad" type="button" class="button" value="保存所有日志" onClick="location.href='SystemLog.txt';" align="left">
+&nbsp;<input name="doMailLog" type="button" class="button" value="通过邮件发送" onClick="this.disabled = true; location.href='SystemLogRpm.htm?doMailLog=2';" align="left">
+<input name="ClearLog" type="submit" class="button" value="清除所有日志" align="right">
+<input name="help" type="button" class="button" onClick="location.href='/help/SystemLogHelpRpm.htm';" value="帮 助">
+</td></tr><tr><td class="hline"><img src="/images/empty.gif" width="1" height="1"></td></tr>
+</table></td></tr></table></form></center>
+</body><head><meta http-equiv="pragma" content="no-cache"></head></html>
+
